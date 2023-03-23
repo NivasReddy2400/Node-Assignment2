@@ -68,7 +68,6 @@ app.get('/CompressVideo',(req,res)=>{
             '-preset', 'medium',
             '-crf', '23',
             '-c:a', 'libx264',
-            '-r','29',
             '-s', '1280x720',
             '720Pvideo.mp4',
         ], {
