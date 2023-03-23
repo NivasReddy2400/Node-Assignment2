@@ -2,7 +2,7 @@
 
 downloaded specs of the video are -
 1) h264 codec
-2 )bitrate 50000kbps
+2) bitrate 50000kbps
 3) 8 bit depth
 4) frame rate : 29
 
