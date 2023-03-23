@@ -22,7 +22,7 @@ app.get('/downloadYoutubeVideo',(req, res) => {
         '-map', '0:a',
         '-map', '1:v',
         '-c:v', 'h264',
-        '-b:v', '50000k', 
+        '-b:v', '70000k', 
         '-pix_fmt', 'yuv420p', 
         'HighQualityVideo.mp4',
     ], {
@@ -67,7 +67,6 @@ app.get('/CompressVideo',(req,res)=>{
             '-pix_fmt', 'yuv420p', 
             '-preset', 'medium',
             '-crf', '23',
-            '-c:a', 'libx264',
             '-s', '1280x720',
             '720Pvideo.mp4',
         ], {
