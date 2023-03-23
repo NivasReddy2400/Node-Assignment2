@@ -64,7 +64,7 @@ app.get('/CompressVideo',(req,res)=>{
             '-i', 'pipe:4',
             '-i', 'pipe:5',
             '-c:v', 'h264',
-            '-b:v', '60000k', 
+            '-b:v', '50000k', 
             '-r','29',
             '-pix_fmt', 'yuv420p', 
             '-preset', 'medium',
